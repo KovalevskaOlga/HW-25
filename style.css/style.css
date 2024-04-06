@@ -1,0 +1,28 @@
+.list {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.item {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.item:nth-child(3) {
+  background-color: rgb(34, 190, 34);
+  right: 0;
+  bottom: 0;
+}
+.item:nth-child(1) {
+  background-color: rgb(200, 59, 59);
+  top: 0;
+}
+.item:nth-child(2) {
+  background-color: rgb(43, 107, 190);
+  z-index: 1;
+  top: 100px;
+  right: 100px;
+}
+li {
+  list-style: none;
+}
